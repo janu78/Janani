@@ -1,0 +1,950 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,300;1,500&display=swap');
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    /* font-family: "poppins"; */
+    
+} 
+
+html{
+     scroll-behavior: smooth; 
+} 
+/* navbar section */
+.header{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 2px solid orangered;
+    box-shadow: 0 0 8px black;
+    width: 100%;
+    top: 0;
+    left: 0; 
+    position: fixed;
+     z-index: 1; 
+  
+    
+}
+.logo a{
+    color: orangered;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+ ul{
+    display: inline-flex;
+    list-style: none;
+
+}
+ul li a{
+    padding:15px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.navbar a:hover{
+    border-bottom: 1px solid orangered;
+    transition: 2s;
+}
+/* navbar section end */
+
+
+
+/* home section */
+.home{
+    width: 100%;
+    height:800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    
+    
+}
+.home img{
+    width: 50%;
+    height: 100%;
+    background-size: cover; 
+    border-radius: 80%;
+    margin-top: 5rem;
+    margin-left: 30px;
+    
+}
+
+.container h4{
+   font-family: 'Poppins', sans-serif;
+    margin-right: 200px;
+    font-size: 2rem;
+    text-transform: capitalize;
+    
+}
+.container{
+    margin-top: 70px;
+    margin-right: 60px;
+}
+
+
+.container h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+   
+}
+.container h3 span{
+    
+    font-weight: 800;
+    color: orangered;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
+
+.container p{
+    font-size: 1.5rem;
+    font-family: "poppins";
+}
+.social_links i {
+    font-size: 30px;
+    margin-top: 10px; 
+     padding: 10px;
+    color: #0d0d0d;
+    
+}
+
+.social_links i:hover{
+    background-color: orangered;
+    border-radius: 25px;
+}
+
+.button p{
+    color:#c3282b;
+    font-size: 25px;
+    margin-left: 50px;
+    color: #111010;
+    cursor: pointer;
+    position: relative;
+    top: -36px;
+    font-family: "poppins";
+    font-weight: bold;
+}
+#resume{
+    margin-left: 14px;
+    margin-top: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+#resume:hover{
+color:orangered;
+cursor: pointer;
+    
+}
+
+.button a{
+     text-decoration: none; 
+} 
+
+
+
+/* home section end */
+
+/* about section */
+#about{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(195, 169, 136);
+    
+}
+.box1{
+    background-color: rgb(208, 192, 192);
+    width: 100%;
+    height: 400px;
+    position: relative;
+   
+
+}
+.box1 img{
+    width: 50%;
+    height: 27rem;
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 2rem orange;
+}
+
+.box2{
+    background-color: rgb(20, 19, 19);
+    width: 100%;
+    height: 400px;
+
+    
+}
+
+
+.box2 img{
+    width: 30%;
+    height: 22rem;
+    position: absolute;
+    top: 70rem;
+    left: 300px;
+    border-radius: 30px;
+    box-shadow: 0 0 2rem orangered;
+    
+    
+  
+}
+
+
+
+.box3{
+    position: absolute;
+    background-color: white;
+    width: 420px;
+    height: 350px;
+    left: 900px;
+    border-radius: 30px;
+        box-shadow: 0 0 2rem orangered;
+}
+.box3 h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.box3 span{
+    color: orangered;
+}
+.box3 h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: orangered;
+}
+.box3 h3{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+   
+    
+}
+
+
+
+
+
+/* about section end */
+
+/* skills section */
+.container2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(16, 16, 16);
+    margin-top: 10rem;
+    font-family: "poppins";
+    font-weight: bolder;
+    font-size: 4rem;
+    
+    
+    
+}
+.container2 h2 span{
+    
+    
+    text-transform: uppercase;
+    color: orangered;
+    top:-1px;
+    font-family: "poppins";
+    font-weight: bolder;
+    font-size: 4rem;
+    
+}
+
+
+.container2 img{
+
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.boxx1
+{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(237, 228, 228);
+    left: 200px;
+    top:125rem;
+    box-shadow: 15px 25px 25px rgba(255, 219,219, 0.5),
+                inset 4px 4px 10px white;
+                border-radius: 25px;
+    
+                 
+}
+
+.boxx2
+{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(237, 228, 228);
+    left: 500px;
+    top:2000px;
+    box-shadow: 15px 25px 25px rgba(225, 219, 219, 0.3),
+    inset 4px 4px 10px white;
+    border-radius: 25px;
+    /* transition: .5s ease; */
+
+}
+.boxx3
+{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(237, 228, 228);
+    left: 800px;
+    top:2000px;
+    box-shadow: 15px 25px 25px rgba(255, 219,219, 0.5),
+    inset 4px 4px 10px white;
+    border-radius: 25px;
+    
+}
+.boxx4
+{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(237, 228, 228);
+    left: 1100px;
+    top:2000px;
+    box-shadow: 15px 25px 25px rgba(237, 219,219, 0.5),
+    inset 4px 4px 10px white;
+    border-radius: 25px;
+    
+}
+#html{
+    font-size: 8rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    
+}
+#css{
+    font-size: 8rem;
+    margin-left: 3.3rem;
+    margin-top: 2rem;
+ 
+ 
+}
+ .boxx1 h1{
+    color:orangered;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+.boxx2 h1{
+    color:orangered;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+.boxx3 h1{
+    color:orangered;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+.boxx4 h1{
+    color:orangered;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+.container2 span{
+    font-size: 4rem;
+    margin-left: 4rem;
+    position: relative;
+    top: 1rem;
+    font-weight: bold;
+    font-family: "poppins";
+
+}
+
+
+
+/* skills section end*/
+
+/* project section */
+.heading2 {
+     font-family:"poppins" ;
+     text-align: center;
+     font-weight: 900;
+     font-size: 2rem;
+     margin-top: 1rem;
+     
+}
+.heading2 span{
+    color: orangered;
+}
+.Achivement-container{
+     display: grid; 
+    grid-template-columns: repeat(3,1fr); 
+    align-items: center; 
+   gap: 2.5rem;
+   height: 50rem;
+}
+.Achivement-container .Achivement-box{
+   position: relative;
+   border-radius: 2rem;
+   box-shadow: 0 0 2rem rgb(43, 46, 43);
+   overflow: hidden; 
+     display: flex;   
+    margin: 0 20px 0 50px ; 
+}
+.Achivement-box img{
+    width: 100%; 
+}
+.Achivement-box .Achivement-layer{
+   position: absolute;
+   bottom: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(rgba(236, 233, 233, 0.1),#cfc4c4);
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-direction: column;
+   text-align: center;
+   padding: 0 4rem;
+transform: translate(100%); 
+ transition: .5s ease;  
+
+}
+ .Achivement-box:hover .Achivement-layer{
+     transform: translate(0)   
+}  
+.Achivement-layer h4{
+   font-size: 1rem;
+   position: absolute;
+   left:10rem ;
+   margin-bottom: 3rem;
+   
+
+}
+.Achivement-layer p{
+   font-size: 1rem;
+    margin: 3rem 0 1rem 1px; 
+   justify-content: center;
+   color:rgb(9, 9, 9);
+   position: absolute;
+   left: 5rem;
+}
+.Achivement-layer a {
+
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width: 5rem;
+   height: 5rem;
+ }
+.Achivement-layer a i{
+   font-size: 2rem;
+   color: var(--second-bg-color);
+   
+} 
+h4{
+   color: #0d0d0d;
+   
+}
+.p{
+   color: #1f242d;
+}
+#finalyear h4{
+    position: absolute;
+    right: 15rem!important;
+    
+
+}
+
+
+#finalyear p{
+    margin-left: 9px;
+
+}
+#fade h4{
+    position: absolute;
+    right: 200px;
+
+
+}
+#fade p{
+    margin-left: 55px;
+}
+
+
+
+
+/* project section  end*/
+
+/* achivements section */
+.Education{
+    background-color: #2e364a;
+    width: 100%;
+    height:90rem;
+    
+
+}
+.Education h1{
+    text-align: center;
+    position: relative;
+    top: 3em;
+    text-transform: capitalize;
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+.timeline{
+position: relative;
+margin: 100px auto;
+max-width: 1200px;
+top:5rem;
+}
+.container4{
+    padding: 10px 50px;
+    position: relative;
+    width: 40%;
+    transition: .5sec ease;
+    box-shadow: 0 0 2rem rgb(43, 46, 43);
+    font-family:"poppins"; 
+    
+}
+.text-box{
+    padding: 20px 30px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: line;
+    box-shadow: 0 0 1rem orangered;   
+
+}
+.text-box small{
+font-size: 20px;
+font-weight: 400;
+}
+.text-box{
+    text-transform: capitalize;
+}
+.left-container{
+    left:0;
+    
+}
+.right-container{
+    left:47%;
+    
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #fff;
+    top:0;
+    left: 47.5%;
+    margin-left: -3px;
+    animation: moveline 6s linear forwards; 
+   
+    
+}
+
+@keyframes moveline{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+
+
+
+.text-box h2{
+    font-weight: 600;
+}
+.text-box small{
+    display: inline;
+    margin-bottom: 15px;
+}
+
+.left-container-arrow
+{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top:28px;
+    z-index: 1px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid rgb(231, 229, 229);
+    right: -15px;
+
+
+}
+.right-container-arrow
+{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top:28px;
+    z-index: 1px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid rgb(241, 240, 240);
+    left: -15px;
+
+
+}
+.container4:hover{
+    transform: scale(1.1); 
+}
+
+/* contact section*/
+.container5{
+    width: 100%;
+    height: 50rem;   
+    background-image: url(/IMAGE/contcat1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+
+.col1{
+    width: 50%;
+    height: 50rem;
+    float: left;
+}
+.col2{
+    width: 50%;
+    height: 50rem;
+    float: right;
+}
+.col1 h1{
+    color:rgb(11, 10, 10);
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: "poppins";
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-right:4.5rem;
+   
+ 
+
+}
+.icon {
+
+   display: flex;
+   justify-content:center;
+   margin-top: 4rem;
+   margin-right: 8rem;
+     
+
+}
+.icon i{
+font-size:2rem;
+color: orangered;
+
+
+}
+.icon span{
+    font-family: "poppins";
+    color:black;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.col1 p{
+    font-family: "poppins";
+    margin-left: 15rem;
+    margin-top: 15px;
+    font-weight: bold;
+
+    color:black;
+
+
+}
+.icon1 {
+
+    display: flex;
+    justify-content:center;
+    margin-top: 4rem;
+    margin-right: 8rem;
+      
+ 
+ }
+ .icon1 i{
+ font-size:2rem;
+ color: orangered;
+ 
+ 
+ }
+ .icon1 span{
+     font-family: "poppins";
+     color: rgb(4, 4, 4) !important;
+     text-transform: capitalize;
+ }
+ .col1 p{
+     font-family: "poppins";
+     margin-left: 15rem;
+     margin-top: 15px;
+     font-weight: bold;
+ 
+     color: black;
+ 
+ 
+ }
+ 
+ .col1 a{
+    font-size: 80px;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    cursor: pointer;
+    margin-left: 14.6rem ;
+    margin-top: 20px;
+ position: relative; 
+    top: -9.6rem;
+    
+    
+ }
+/* col1 section end */
+
+/* col2 section start */
+.col2{
+font-family: "poppins";
+position: relative;
+overflow: hidden;
+}
+
+
+.col2 h1{
+    color:rgb(11, 10, 10);
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: "poppins";
+    /* display: flex;
+    justify-content: center; */
+    margin-right:4rem;
+    padding-top: 10rem;
+    margin-left: 70px;
+    
+    
+   
+}
+form{
+    text-align: center;
+    margin-top: 6rem;
+    margin-left: 10rem;
+    font-family: "poppins";
+}
+    
+.email1{
+color: rgb(24, 24, 24);
+position: absolute;
+left: 80px;
+margin-bottom: 10em;
+
+
+}
+#email{
+    position: absolute;
+    border: none;
+    background: white;
+    border-bottom: 2px solid rgb(10, 10, 10);
+    padding: 10px;
+    margin-bottom: 10em;
+    width: 40%;
+    font-family: "poppins";
+    right: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5rem rgb(17, 17, 17);
+    
+    
+
+}
+.name{
+    color: rgb(15, 13, 13);
+    position: absolute;
+    left: 80px;
+    margin-top: -70px;
+   
+    
+    
+}
+#username{
+    position: absolute;
+    border: none;
+    background: white;
+    border-bottom: 2px solid rgb(9, 10, 9);
+    padding: 10px;
+    margin-top: -70px;
+    width: 40%;
+    font-family: "poppins";
+    right: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5rem rgb(17, 17, 17);
+
+}
+/* /.Address{
+    color: rgb(8, 8, 8);
+    position: absolute;
+    left: 80px;
+    margin-top: 130px; 
+    
+} */
+/* #Txtaddress{
+    position: absolute;
+    border: none;
+    background: white;
+    border-bottom: 2px solid rgb(8, 8, 8);
+    margin-top: 130px;
+    padding: 10px;
+    width: 40%;
+    font-family: "poppins";
+} */
+/* #email-error{
+    color: red;
+}
+#name-error{
+    color: red;
+} */
+span{
+    color: red;
+}
+.col2 span i{
+    color: green;
+}
+.submit-error{
+    color: red;
+}
+
+
+.message{
+    color: rgb(15, 15, 15);
+    position: absolute;
+    left: 80px;
+    margin-top: 80PX;
+    
+}
+textarea{
+    position: absolute;
+    border: none;
+    background:white;
+     border-bottom: 2px solid rgb(15, 15, 15);
+    margin-top: 60px;
+    padding: 10px;
+    width: 40%;
+    right: 80px;
+    font-family: "poppins";
+    border-radius: 10px;
+    box-shadow: 0 0 0.5rem rgb(17, 17, 17);
+    
+}
+
+#lbl-submit
+{
+    margin-top: 210px;
+    padding: 20px;
+    margin-left: 180px;
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    font-family: "poppins";
+    font-size: 18px;
+    box-shadow: 0 0 0.5rem rgb(17, 17, 17);    
+    margin-right: 80px;
+}
+#lbl-submit:hover{
+    background-color:orangered;
+    font-family: "poppins";
+
+}
+/* col2 section 2 complete */
+.button5{
+    margin-left: 35rem;
+    margin-top: 6rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(21, 20, 20);
+    box-shadow: 0 0 0.5rem rgb(17, 17, 17);
+}
+.button5:hover{
+    background-color: orangered;
+}
+.button5 a{
+    text-decoration: none;
+    position: relative;
+    right: 13px; 
+    font-size: 20px;
+}
+.button5 i{
+    margin-left: 10px;
+    font-size: 20px;
+    
+    
+}
+.col2 span{
+    position: absolute;
+    left: 520px;
+    top: 5px;
+    z-index: 1;
+    
+}
+.feedback{
+    margin-left: 14rem;
+
+    position: relative;
+bottom: 80px;
+
+}
+.feedback button{
+    border-radius: 20px;
+    font-family: "poppins";
+    background-color: orangered;
+    box-shadow: 0 0 0.25rem black;
+    border: none;
+   
+}
+
+.feedback a{
+    
+    font-size: 2rem;
+    font-family: "poppins";
+    margin-left: 10px;
+top: 1px;
+position: relative;
+bottom: 80px;
+color: white;
+padding: 1rem;
+
+
+}
+/* contact section  end */
